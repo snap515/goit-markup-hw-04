@@ -72,7 +72,7 @@
   padding-top: 94px;
 }
 
-.we-do-title {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -92,7 +92,7 @@
 
 /* section our team */
 .our-team {
-  padding: 94px 0px;
+  padding: 94px 0;
 }
 
 .our-team-list {
@@ -109,14 +109,6 @@
 
 .our-team-item:not(:first-child) {
   margin-left: 30px;
-}
-
-.our-team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .our-team-name {
@@ -142,4 +134,28 @@
 
   margin-top: 10px;
   margin-bottom: 30px;
+}
+
+.regular-customers {
+  padding: 94px 0;
+}
+
+.customer-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer-item {
+  margin-top: 50px;
+  width: 170px;
+  height: 90px;
+
+  border: 1px solid var(--main-logo);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.customer-item:not(:first-child) {
+  margin-left: 30px;
 }

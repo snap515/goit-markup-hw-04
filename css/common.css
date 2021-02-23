@@ -9,6 +9,7 @@
   --white: rgba(255, 255, 255, 1);
   --email-phone: rgba(255, 255, 255, 0.6);
   --btn-boxshadow: rgba(0, 0, 0, 0.15);
+  --main-logo: rgba(175, 177, 184, 1);
 }
 
 body {

@@ -1,8 +1,12 @@
 /* section hero */
 .hero-section {
-  background-color: var(--dark-background);
-  text-align: center;
+  background-image: url(../img/main/hero-background.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  background-size: contain;
   padding: 200px 0 280px 0;
+  text-align: center;
 
   color: var(--white);
 }

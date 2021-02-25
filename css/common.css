@@ -93,12 +93,25 @@ body {
   margin-left: auto;
 }
 
+.icon {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
 .contact-item {
   color: var(--secondary);
+  display: flex;
+  align-items: center;
 }
 
 .contact-item:nth-child(2) {
   margin-left: 50px;
+}
+
+.icon:hover {
+  fill: var(--blue);
 }
 
 .nav-item:hover,

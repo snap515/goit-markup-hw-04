@@ -56,12 +56,29 @@
   justify-content: space-between;
 }
 
+.our-features-icon {
+  width: 65px;
+  height: 70px;
+  margin-bottom: 55px;
+  margin-left: 102px;
+}
+
+.our-features-item {
+  display: inline-block;
+  align-items: center;
+  flex-direction: column;
+}
+
 .our-features-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  margin-bottom: 10px;
+
+  text-align: left;
 }
 
 .our-features-item:not(:first-child) {
@@ -76,7 +93,6 @@
   letter-spacing: 0.03em;
 
   max-width: 270px;
-  margin-top: 10px;
 }
 
 /* sectio what do we do */

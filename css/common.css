@@ -98,6 +98,7 @@ body {
   height: 12px;
   margin-right: 10px;
   cursor: pointer;
+  fill: currentColor;
 }
 
 .contact-item {
@@ -108,10 +109,6 @@ body {
 
 .contact-item:nth-child(2) {
   margin-left: 50px;
-}
-
-.icon:hover {
-  fill: var(--blue);
 }
 
 .nav-item:hover,

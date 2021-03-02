@@ -56,16 +56,22 @@
   justify-content: space-between;
 }
 
+.thumb {
+  height: 120px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .our-features-icon {
   width: 65px;
   height: 70px;
-  margin-bottom: 55px;
-  margin-left: 102px;
 }
 
 .our-features-item {
   display: flex;
-  align-items: center;
+  align-items: left;
   flex-direction: column;
   max-width: 270px;
 }
@@ -77,6 +83,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
+  margin-top: 30px;
   margin-bottom: 10px;
 
   text-align: left;
@@ -94,6 +101,7 @@
   letter-spacing: 0.03em;
 
   max-width: 270px;
+  text-align: left;
 }
 
 /* sectio what do we do */

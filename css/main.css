@@ -131,9 +131,8 @@
 }
 
 .our-team-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: block;
+  align-content: center;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -165,17 +164,19 @@
   color: var(--prof-color);
 
   margin-top: 10px;
-  margin-bottom: 30px;
 }
 
 .team-icon-list {
-  display: flex;
-  align-content: stretch;
+  display: inline-block;
+  align-content: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .our-team-icon {
-  width: 20px;
-  height: 20px;
+  width: 44px;
+  height: 44px;
   fill: rgba(175, 177, 184, 1);
   padding-right: 10px;
 }

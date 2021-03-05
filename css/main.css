@@ -219,18 +219,19 @@
 
 .customer-list {
   display: flex;
-  align-items: center;
-  justify-content: center;
 
   margin-top: 50px;
 }
 
 .customer-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   width: 170px;
   height: 90px;
 
   border: 1px solid var(--main-logo);
-  box-sizing: border-box;
   border-radius: 4px;
 }
 
@@ -238,6 +239,18 @@
   margin-left: 30px;
 }
 
-.customer-logo {
+.customer-item:focus,
+.customer-item:hover {
+  border: 1px solid var(--blue);
+  border-radius: 4px;
+  fill: var(--blue);
+}
+
+.customer-item:focus .customer-icon,
+.customer-item:hover .customer-icon {
+  fill: var(--blue);
+}
+
+.customer-icon {
   fill: var(--main-logo);
 }

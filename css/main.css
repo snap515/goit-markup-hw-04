@@ -254,3 +254,12 @@
 .customer-icon {
   fill: var(--main-logo);
 }
+
+.customer-link {
+  width: inherit;
+  height: inherit;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

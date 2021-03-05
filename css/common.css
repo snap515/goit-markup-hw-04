@@ -158,3 +158,8 @@ body {
 .footer-contact:focus {
   color: var(--blue);
 }
+
+.footer-list {
+  display: flex;
+  justify-content: left;
+}

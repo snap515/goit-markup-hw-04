@@ -81,10 +81,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-left: 93px;
+  margin-left: 43px;
 }
 
-.nav-item:not(:nth-child(1)),
+.nav-item,
 .nav-item-current {
   margin-left: 50px;
 }

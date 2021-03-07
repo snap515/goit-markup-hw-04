@@ -12,6 +12,7 @@
   --btn-boxshadow: rgba(0, 0, 0, 0.15);
   --main-logo: rgba(175, 177, 184, 1);
   --item-set-gap: 30px;
+  --button-background: rgba(245, 244, 250, 1);
 }
 
 body {

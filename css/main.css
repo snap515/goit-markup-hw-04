@@ -62,7 +62,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--background-svg);
+  background-color: var(--background-secondary);
 }
 
 .our-features-icon {
@@ -108,7 +108,7 @@
 /* sectio what do we do */
 
 .we-do {
-  padding-top: 94px;
+  padding: 94px 0px;
 }
 
 .section-title {
@@ -132,6 +132,7 @@
 /* section our team */
 .our-team {
   padding: 94px 0;
+  background-color: var(--background-secondary);
 }
 
 .our-team-list {
@@ -148,9 +149,18 @@
   flex-basis: calc(100% / 4 - var(--item-set-gap));
   margin-left: var(--item-set-gap);
 
+  background-color: var(--background-main);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.teammate-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 32px;
 }
 
 .our-team-name {
@@ -161,7 +171,7 @@
   letter-spacing: 0.03em;
   color: var(--name-color);
 
-  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .our-team-position {
@@ -174,13 +184,11 @@
   letter-spacing: 0.03em;
   color: var(--prof-color);
 
-  margin-top: 10px;
+  margin-bottom: 16px;
 }
 
 .social-list {
   display: flex;
-  margin-top: 16px;
-  margin-bottom: 30px;
 }
 
 .social-link {
@@ -188,16 +196,12 @@
   height: 44px;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
 .social-item {
   border-radius: 50%;
-}
-
-.social-item:first-child {
-  margin-left: 32px;
 }
 
 .social-item:not(:first-child) {
